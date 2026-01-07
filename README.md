@@ -1,6 +1,6 @@
 # Service Booking System
 
-Live Demo: https://yourdomain.in
+Live Demo: https://service-book.netlify.app/
 
 ## Technologies Used
 - PHP
@@ -21,3 +21,4 @@ Live Demo: https://yourdomain.in
 2. Rename config.example.php to config.php
 3. Add database credentials
 4. Run on localhost or live server
+
