@@ -14,13 +14,13 @@ function sendBookingMail($toEmail, $service, $userName, $userEmail, $date, $time
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
 
-        $mail->Username = 'bhushanphirke314@gmail.com';      // Your Gmail
-        $mail->Password = 'tlmkuqzvejzflmgw'; // Gmail App password
+        $mail->Username = 'your email';      // Your Gmail
+        $mail->Password = 'app password'; // Gmail App password
 
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;
 
-        $mail->setFrom('bhushanphirke314@gmail.com', 'Service Booking');
+        $mail->setFrom('your email', 'Service Booking');
         $mail->addAddress($toEmail);
 
         $mail->isHTML(true);
@@ -44,3 +44,4 @@ function sendBookingMail($toEmail, $service, $userName, $userEmail, $date, $time
     }
 }
 ?>
+
