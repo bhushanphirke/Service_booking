@@ -34,7 +34,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
     // Send email to fixed admin
     $mailSent = sendBookingMail(
-        "alkaphirke001@gmail.com",           // fixed admin email
+        "admin email",           // fixed admin email
         $data['service_name'],
         $_SESSION['name'],
         $_SESSION['email'],
@@ -50,3 +50,4 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     }
 }
 ?>
+
